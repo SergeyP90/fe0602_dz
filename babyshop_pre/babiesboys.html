@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сайт детской одежды</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="keywords" content="Детская одежда, одежда для новорожденных, детская одежда Киев, одежда для новорожденных купить недорого Киев">
+	<meta name="description" content="Одежда для новорожденных и детей в возрасте до 10 лет. Вся одежда выполненая из качественных тканей. Бесплатна доставка по Киеву.">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css"/>
+
+	<!-- JS -->
+	<script type="text/javascript" defer="defer" src="js/goods_for_boys.js"></script>
+	<script type="text/javascript" defer="defer" src="js/enter_goods.js"></script>
+
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer="defer"></script>
+
+</head>
+<body>
+
+	<!--start header-->
+	<header>
+
+		<!--header-top-menu-->
+		<nav id="header-top">
+			<div class="top-menu">
+				<div class="logo">
+					<a href="main.html" class="logo-image">
+						<img src="./images/logo.png" alt="logo">
+					</a>
+					<h3>teddy<span>.com.ua</span></h3>
+				</div>
+
+				<form class="form-inline left-block">
+					<input class="form-control mr-sm-2" type="search" placeholder="Найти" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						<img src="images/search.png" alt="search">
+					</button>
+				</form>
+
+				<div class="top-menu-cart">
+					<a href="cart.html" class="cart">
+						<img src="./images/cart.png" alt="cart">
+						<span class="amountInCart"></span>
+						<h3>Корзина</h3>
+					</a>					
+				</div>
+
+				<div class="right-block">
+					<button type="button" class="btn log" data-toggle="modal" data-target="#myLogin">
+						Войти
+					</button>
+					<button type="button" class="btn reg">
+						<a href="signup.html" class="cart">Зарегистрироваться</a>
+					</button>
+
+				<!--Modal-->
+					<div class="modal fade" id="myLogin" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Вход в личный кабинет</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+						  		<div class="modal-body">
+									<div class="container-fluid">
+							  			<form>
+											<div class="form-group">
+												<label for="exampleInputEmail1">Введите свой E-mail</label>
+												<div class="modal-input">
+													<div class="modal-icon">
+														<img src="./images/user.png" alt="user">
+													</div>
+													<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required>
+													<small id="emailHelp" class="form-text text-muted"></small>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="exampleInputPass" class="">Введите свой пароль</label>
+												<div class="modal-input">
+													<div class="modal-icon">
+														<img src="./images/pencil.png" alt="pensil">
+													</div>
+													<input type="password" class="form-control" id="exampleInputPass" placeholder="" required>
+													<small id="passHelp" class="form-text text-muted"></small>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+						  		<div class="modal-footer">
+									<button type="button" class="btn btn-primary">Войти</button>
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!--end Modal-->
+
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- menu-->
+		<nav id="header-bottom">
+			<ul class="bottom-menu">
+				<li><a href="babiesgirls.html" class="down">Для малышек</a>
+					<ul class="submenu">
+						<li><a href="#">Новинки!!!</a></li>
+						<li><a href="#">Майки и бодики</a></li>
+						<li><a href="#">Пижамы и ползунки</a></li>
+						<li><a href="#">Куртки и трикотажные вещи</a></li>
+						<li><a href="#">Платья и комбинезоны</a></li>
+						<li><a href="#">Шапки и варежки-царапки</a></li>
+						<li><a href="#">Носки, колготки</a></li>
+						<li><a href="#">Пинетки</a></li>
+						<li><a href="#">Аксессуары</a></li>
+					</ul>
+				</li>
+				<li><a href="babiesboys.html" class="down">Для мальшей</a>
+					<ul class="submenu">
+						<li><a href="#">Новинки!!!</a></li>
+						<li><a href="#">Майки и бодики</a></li>
+						<li><a href="#">Пижамы и ползунки</a></li>
+						<li><a href="#">Куртки и трикотажные вещи</a></li>
+						<li><a href="#">Комбинезоны</a></li>
+						<li><a href="#">Шапки и варежки-царапки</a></li>
+						<li><a href="#">Носки</a></li>
+						<li><a href="#">Пинетки</a></li>
+						<li><a href="#">Аксессуары</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="down">Детская обувь</a>
+					<ul class="submenu">
+						<li><a href="#">Новинки!!!</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="down">Детская комната</a>
+					<ul class="submenu">
+						<li><a href="#">Новинки!!!</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+	
+	<!--start section-->
+	<section class="content">
+		
+		<nav class="sidebar">
+			<ul class="sidebar-menu">
+			    <li><a href="#" class="sidebar-down">Для малышек</a>
+			    	<ul class="sidebar-submenu">
+						<li><a href="#">Новинки!!!</a></li>
+						<li><a href="#">Майки и бодики</a></li>
+						<li><a href="#">Пижамы и ползунки</a></li>
+						<li><a href="#">Куртки и трикотажные вещи</a></li>
+						<li><a href="#">Платья и комбинезоны</a></li>
+						<li><a href="#">Шапки и варежки-царапки</a></li>
+						<li><a href="#">Носки, колготки</a></li>
+						<li><a href="#">Пинетки</a></li>
+						<li><a href="#">Аксессуары</a></li>
+			    	</ul>
+			    </li>
+			    <li><a href="#" class="sidebar-down">Для мальшей</a>
+					<ul class="sidebar-submenu">
+						<li><a href="#">Новинки!!!</a></li>
+						<li><a href="#">Майки и бодики</a></li>
+						<li><a href="#">Пижамы и ползунки</a></li>
+						<li><a href="#">Куртки и трикотажные вещи</a></li>
+						<li><a href="#">Комбинезоны</a></li>
+						<li><a href="#">Шапки и варежки-царапки</a></li>
+						<li><a href="#">Носки</a></li>
+						<li><a href="#">Пинетки</a></li>
+						<li><a href="#">Аксессуары</a></li>
+					</ul>
+			    </li>
+			    <li><a href="#" class="sidebar-down">Обувь</a>
+			    	<ul class="sidebar-submenu">
+						<li><a href="#">Новинки!!!</a></li>
+			    	</ul>
+			    </li>
+			    <li><a href="#" class="sidebar-down">Детская комната</a>
+			    	<ul class="sidebar-submenu">
+						<li><a href="#">Новинки!!!</a></li>
+			    	</ul>
+			    </li>
+			</ul>		
+			
+		</nav>
+
+		<div id="list-goods">
+
+		</div>
+
+	</section>
+
+	<!--start footer-->
+	<footer class="footer">
+		<!--start footer-top-->
+		<div class="footer-top">
+			<div class="section">
+				<h4 class="headline">Информация</h4>
+				<ul>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Вакансии</a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<h4 class="headline">Способы оплаты и доставка</h4>
+				<ul>
+					<li><a href="#">Способы оплаты</a></li>
+					<li><a href="#">Способы доставки</a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<h4 class="headline">Помощь</h4>
+				<ul>
+					<li><a href="#">Как определить размер</a></li>
+					<li><a href="#">Условия возврата</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--start bottom-->
+		<div class="footer-bottom">
+			<div id="social-ico">
+				<a href="#" target="blank" class="social-img"><img src="./images/soc-ico/facebook.png" alt="facebook-ico"></a>
+				<a href="#" target="blank" class="social-img"><img src="./images/soc-ico/google-plus.png" alt="googleplus-ico"></a>
+				<a href="#" target="blank" class="social-img"><img src="./images/soc-ico/instagram.png" alt="instagram-ico"></a>
+				<a href="#" target="blank" class="social-img"><img src="./images/soc-ico/twitter.png" alt="twitter-ico"></a>
+				<a href="#" target="blank" class="social-img"><img src="./images/soc-ico/youtube.png" alt="youtube-ico"></a>
+			</div>
+		</div>
+	    <div class="copyright">
+	        <p>Copyright © 2018 SergeyP</p>
+	    </div>
+	</footer>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+.main-cart h1,
+.main-cart h3 {
+	font-family: 'Kaushan Script', cursive;
+	line-height: 1;
+	letter-spacing: 3px;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+.main-cart h1 {
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+.main-cart h3 {
+	font-size: 20px;
+	color: #FF0000;
+}
+
+.summary-table {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.thead {
+    padding: 10px;
+    border-bottom: 1.5px solid;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.tfoot {
+    border-top: 1.5px solid;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
+tr > .about-product {
+    text-align: center;
+    width: 60%;
+}
+
+tr > .price {
+    text-align: center;
+    width: 15%;
+}
+
+td,
+th {
+    padding: 10px;
+    width: auto;
+}
+
+tr > .sum {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.articul_cart,
+.image-goods_cart,
+.name-goods_cart,
+.price-goods_cart,
+.delete {
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+}
+
+.price-goods_cart {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.delete button {
+    border: none;
+    padding: 11px;
+    background: #DCDCDC;
+    border-radius: 50%;
+    color: #F5FFFA;
+    outline: none;
+}
+
+.delete button:hover {
+    background: #FF0000;
+    cursor: pointer;
+    color: #000000;
+}
+
+.main-cart.empty .summary-table {
+    display: none;
+}
+
+.main-cart.empty .empty-cart {
+    display: block;
+}
+
+

@@ -1,0 +1,48 @@
+.modal h5 {
+	font-size: 18px;
+}
+
+.modal-body .form-control {
+	border: 1px solid #AFEEEE;
+	border-radius: 0 7px 7px 0;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.modal-body input {
+	width: 300px;
+	margin-top: 10px;
+}
+
+.modal-footer > .btn-primary,
+.modal-footer > .btn-secondary {
+	background: #ffffff;
+	border: 1px solid #AFEEEE;
+	color: #000000;
+}
+
+.modal-footer > .btn-primary:hover {
+	background: #AFEEEE;
+}
+
+.modal-footer > .btn-secondary:hover {
+	background: #A9A9A9;
+}
+
+.modal-icon {
+	float: left;
+	height: 35px;
+	width: 40px;
+	border: 1px solid #AFEEEE;
+	border-radius: 7px 0 0 7px;
+	background: #AFEEEE;
+}
+
+.modal-icon img {
+	display: block;
+	width: 31px;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+

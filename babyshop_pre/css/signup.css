@@ -1,0 +1,79 @@
+article {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 580px;
+	border: 1.5px solid #808080;
+    box-shadow: 7px 10px 7px #808080;
+}
+
+.form h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: 3px;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: underline;
+}
+.form p {
+	text-align: center;
+	padding: 10px;
+}
+
+.form img {
+	width: 90px;
+}
+
+.form_row {
+	margin-bottom: 7px;
+	overflow: hidden;
+}
+
+.form_row input {
+	font-size: 14px;
+	float: right;
+	height: 25px;
+	line-height: 25px;
+	margin: 0px;
+	width: 297px;
+	border: 1px solid #AFEEEE;
+	border-radius: 5px;
+	padding-left: 10px;
+	outline: none;
+}
+
+.form_row label {
+	padding: 5px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.form_reg {
+	margin: 0 auto;
+	width: 540px;
+	padding: 20px;
+}
+
+.form_submit {
+	text-align: center;
+	padding: 20px;
+}
+
+.form_submit input {
+	width: 170px;
+	height: 40px;
+	text-align: center;
+	padding: 10px;
+	background: #e3e4e5;
+	border: 1px solid #AFEEEE;
+	border-radius: 7px;
+	cursor: pointer;
+	outline: none;
+}
+
+.form_submit input:hover {
+	background: #AFEEEE;
+	border: 1px solid #e3e4e5;
+}
+
+
